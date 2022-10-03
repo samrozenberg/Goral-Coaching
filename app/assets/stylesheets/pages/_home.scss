@@ -9,10 +9,23 @@
 
 .home-text {
   width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  h4 {
+    margin-bottom: 2rem;
+  }
 }
 
 .salome-photo-wrapper {
   width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -20,4 +33,21 @@
   max-width: 100%;
   height: auto;
   border-radius: 6%;
+}
+
+.transparent {
+  color: transparent;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $yellow;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #f7a502!important;
+  color: white!important;
 }
