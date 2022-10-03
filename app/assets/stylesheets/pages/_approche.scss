@@ -1,19 +1,45 @@
 .mission-wrapper {
   background-color: rgba(245, 158, 138, 0.8);
   margin: 10px;
-  padding: 10px;
+  padding: 2rem;
   text-align: center;
+  border-radius: 5px;
   h1 {
-    font-weight: bold;
+    font-size: 2rem;
+  }
+  i {
+    font-size: 1.4rem;
+    color: rgba(42, 42, 42, 0.8);
+  }
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
   }
 }
 
 .vision-wrapper {
   background-color: white;
   margin: 10px;
-  padding: 10px;
+  padding: 2rem;
   text-align: center;
+  border-radius: 5px;
   h1 {
-    font-weight: bold;
+    font-size: 2rem;
+  }
+  i {
+    font-size: 1.4rem;
+    color: rgba(42, 42, 42, 0.8);
+  }
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
   }
 }
