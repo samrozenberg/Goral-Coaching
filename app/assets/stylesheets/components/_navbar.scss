@@ -39,6 +39,9 @@
   font-size: 20px;
   color: $blue;
   margin-bottom: 0;
+  &:hover {
+    color: $blue;
+  }
 }
 
 .goral-logo-wrapper {
