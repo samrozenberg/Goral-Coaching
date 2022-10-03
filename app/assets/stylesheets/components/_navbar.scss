@@ -1,6 +1,5 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,6 +8,10 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.nav-item {
+  margin: 0rem 1.8rem;
 }
 
 .profiler-results {
@@ -29,6 +32,7 @@
 .top-navbar {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border-bottom: 0.6px solid rgb(182, 182, 182);
 }
 
 .goral-logo {
@@ -55,4 +59,8 @@
     color: white!important;
     background: linear-gradient(#147EFF, #0F67DA);
   }
+}
+
+.container-fluid {
+  justify-content: center!important;
 }
