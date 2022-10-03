@@ -17,15 +17,30 @@
 
 .insta-icon {
   color: red;
+  font-size: 1.8rem;
+}
+
+.insta-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-navbar {
-  padding-top: 16px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .goral-logo {
   font-size: 20px;
   color: $blue;
+  margin-bottom: 0;
+}
+
+.goral-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-gradient {
@@ -36,9 +51,8 @@
   background: linear-gradient(#167FFB, #0F60C4);
   transition: background 0.3s ease;
   border: 1px solid #0F60C4;
-}
-
-.btn-gradient:hover {
-  background: linear-gradient(#147EFF, #0F67DA);
-  color: white;
+  &:hover {
+    color: white!important;
+    background: linear-gradient(#147EFF, #0F67DA);
+  }
 }
