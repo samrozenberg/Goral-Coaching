@@ -1,0 +1,32 @@
+.transparent-border {
+  border-bottom: 5px solid white;
+}
+
+.contact-wrapper {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid grey;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+.first-contact {
+  width: 50%;
+  background-color: rgba(245, 158, 138, 0.8);
+  color: white;
+}
+
+.rdv {
+  width: 50%;
+  background-color: rgba(74, 66, 66, 0.8);
+  color: white;
+}
