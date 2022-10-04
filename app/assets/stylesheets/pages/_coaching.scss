@@ -1,0 +1,38 @@
+.coaching-card {
+  overflow: hidden;
+  margin: 2rem;
+  height: 12rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.motivation {
+  justify-content: end;
+}
+
+.coaching-card img {
+  height: 100%;
+  max-width: fit-content;
+  object-fit: cover;
+}
+
+.coaching-card h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.coaching-card p {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.coaching-card .coaching-card-infos {
+  padding: 16px;
+}

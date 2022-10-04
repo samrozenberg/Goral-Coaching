@@ -1,0 +1,63 @@
+.mission-wrapper {
+  background-color: rgba(245, 158, 138, 0.6);
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  h1 {
+    font-size: 2rem;
+  }
+  i {
+    font-size: 1.4rem;
+    color: rgba(42, 42, 42, 0.8);
+  }
+  img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.vision-wrapper {
+  background-color: white;
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  h1 {
+    font-size: 2rem;
+  }
+  i {
+    font-size: 1.4rem;
+    color: rgba(42, 42, 42, 0.8);
+  }
+  img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.approche-image-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 16rem;
+}
+
+.approache-wrapper {
+  width: 100%;
+}
